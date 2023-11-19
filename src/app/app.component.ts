@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ProductsService } from './products.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -6,9 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = '';
 
   constructor() {
-    this.title = 'dacha-sweets-website';
+    console.log('AppComponent Instantiated')
   }
 }

@@ -1,0 +1,13 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": [
+      "*.{jpg,gif,png}",
+      "assets/*",
+      "api/*"
+    ]
+  },
+  "mimeTypes": {
+    ".json": "text/json"
+  }
+}
